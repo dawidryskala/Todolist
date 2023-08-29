@@ -1,0 +1,17 @@
+<% if (locals.input_text !="" ){%>
+    <% if(locals.input_text && locals.input_array && locals.input_counter) { for (let i=0; i < input_array.length; i++){
+        %>
+        <li>
+            <input type="checkbox" id="task_<%=i%>" name="scales" />
+
+            <%= input_array[i] %>
+
+        </li>
+        <% }} else if( locals.input_array && locals.input_counter){ for (let i=0; i < input_array.length; i++){ %>
+            <li>
+                <input type="checkbox" id="scales" name="scales" />
+
+                <%= input_array[i] %>
+
+            </li>
+            <% } } }%>

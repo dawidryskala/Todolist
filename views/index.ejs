@@ -1,0 +1,31 @@
+<%- include("partials/header.ejs") %>
+
+    <container class="flex_Todolist">
+
+        <form action="/submit" class="form_grid" method="POST">
+            <label for="fname" class="label_date" name="work_or_today">
+                <% if (locals.which_page_is_it==="today" || !(locals.which_page_is_it)){%>
+                    <%- include("partials/today_date.ejs") %>
+                        <%} else if (locals.which_page_is_it==="work" ) {%>
+                            <%- include("partials/work_text.ejs") %>
+                                <%} %>
+            </label>
+
+            <input type="text" id="fame" name="fName" class="input_task"><br><br>
+            <input type="submit" value="+" class="submit_task">
+        </form>
+
+        <div class="Todolist_div">
+            <ul>
+                <% if (locals.which_page_is_it==="today" || locals.which_page_is_it==="" ){%>
+                    <%- include("partials/today_li.ejs") %>
+                        <%} else if (locals.which_page_is_it==="work" ) {%>
+                            <%- include("partials/work_li.ejs") %>
+                                <%}%>
+
+            </ul>
+        </div>
+
+    </container>
+
+    <%- include("partials/footer.ejs") %>

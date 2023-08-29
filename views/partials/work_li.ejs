@@ -1,0 +1,18 @@
+<% if (locals.input_text_work !="" ){%>
+    <% if(locals.input_text_work && locals.input_array_work && locals.input_counter_work) { for (let i=0; i <
+        input_array_work.length; i++){ %>
+        <li>
+            <input type="checkbox" id="task_<%=i%>" name="scales" />
+
+            <%= input_array_work[i] %>
+
+        </li>
+        <% }} else if( locals.input_array_work && locals.input_counter_work){ for (let i=0; i < input_array_work.length;
+            i++){ %>
+            <li>
+                <input type="checkbox" id="scales" name="scales" />
+
+                <%= input_array_work[i] %>
+
+            </li>
+            <% } } }%>

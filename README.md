@@ -10,3 +10,9 @@ and see my project :slightly_smiling_face:**
 **I published this website via Heroku and used MongoDB as the database. bottom ten links to the Todolist page
 `https://blooming-springs-28523-7d57c944a649.herokuapp.com/`**
 
+**The design is well refined. It includes adding and removing our tasks from a given list. The video below shows how the website works.
+
+
+https://github.com/dawidryskala/Todolist/assets/141305850/58f8866d-2369-4118-b2d7-6b5e158e3b1a
+
+

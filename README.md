@@ -1,4 +1,4 @@
-# Todolist
+# Todolist Renponsive
 ## Todolist which allows you to create task lists for a given topic.
 Basic Todolist on localhost:3000
 
@@ -15,4 +15,5 @@ and see my project :slightly_smiling_face:**
 
 https://github.com/dawidryskala/Todolist/assets/141305850/58f8866d-2369-4118-b2d7-6b5e158e3b1a
 
+https://github.com/dawidryskala/Todolist/assets/141305850/4dbec8ff-ec92-4b67-9663-0f1c688621d5
 
